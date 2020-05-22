@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Addition</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="add.css">
+        <script >
+         function add()
+         {
+             var a=parseInt(document.getElementById("text1").value)
+             var b=parseInt(document.getElementById("text2").value);
+             var c=a+b;
+             console.log(a+b);
+             alert("Added value is  " +c);
+         }
+        </script>
+    </head>
+    <body>
+    <header id="header"> <p id="top">First HTML Application</p> 
+    </header>
+    <div class="sidenav">
+    <h3>Options</h3>
+    <a href="sub.html">Subtraction</a>
+    </div>
+    <div class="card">
+    <h5 class="card-title">Addition</h5>
+    <div class="card-body">
+    <form class="container">
+    <div class="form-group">
+    <label>Enter value A</label>
+     <input type="text"id="text1" class="form-control">
+    </div>
+    <div class="form-group">
+    <label>Enter value B</label>
+    <input type="text"id="text2" class="form-control">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="submit" onclick="add()">Add</button>
+    </div>
+    </form>
+    </div>
+    </div>
+    <footer id="footer">@Copyright</footer>
+    </body>
+</html>

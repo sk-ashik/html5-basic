@@ -1,0 +1,68 @@
+#header
+{
+    color:white;
+    background-color: red;
+    height: 60px;
+    margin-left: 120px;
+}
+
+#footer
+{
+    text-align: center;
+    color:white;
+    background-color: red;
+    height: 60px;
+    position: relative;
+    top:177px;
+    margin-left: 120px;
+    padding:20px;
+}
+.form-control
+{
+    width:70%;
+}
+.card
+{
+    width:400px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.card-body
+{
+  padding-left: 90px;
+}
+.card-title
+{
+    margin-left: 150px;
+    padding-top: 20px;
+    color: red;
+}
+.sidenav
+{
+    height: 100%; 
+    width: 120px;
+    position:fixed;
+    top:0;
+    background-color:antiquewhite; 
+    padding-top: 100px;
+}
+h3{
+    position: relative;
+    bottom: 80px;
+}
+a
+{
+    font-size: larger;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+#top
+{
+    text-align: center;
+    padding: 10px;
+}
+#submit
+{
+    width: 100px;
+    margin-left:40px;
+}
